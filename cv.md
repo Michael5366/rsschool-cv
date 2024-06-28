@@ -37,3 +37,5 @@ function sumTwoSmallestNumbers(numbers) {
 ## Languages
 - Russian (native speaker)
 - English. [A1/A2 (Quick check)](https://www.efset.org/)
+## First project
+https://github.com/Michael5366/rsschool-cv/blob/gh-pages/cv.md
