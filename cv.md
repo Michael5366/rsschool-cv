@@ -32,3 +32,6 @@ function sumTwoSmallestNumbers(numbers) {
 ## Education
 - [Specialist](https://www.specialist.ru/)
 - [Udemy](https://www.udemy.com/)
+## Languages
+- Russian (native speaker)
+- English. [A1/A2 (Quick check)](https://www.efset.org/)
