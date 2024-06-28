@@ -10,3 +10,25 @@ I became interested in web development more than 5 years ago, but I only started
 - JS
 - GIT
 - Photoshop
+## Code Example
+```
+// sumTwoSmallestNumbers
+function sumTwoSmallestNumbers(numbers) {
+    let min1 = Math.min(...numbers);
+    let min2 = 0;
+    let cnt = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        if (min1 == numbers[i]) {
+            cnt++;
+            if (cnt > 1) {
+                return min1 + numbers[i];
+            }
+        }
+    }
+    min2 = Math.min(...numbers.filter(e => e != min1));
+    return min1 + min2;
+}
+```
+## Education
+- [Specialist](https://www.specialist.ru/)
+- [Udemy](https://www.udemy.com/)
