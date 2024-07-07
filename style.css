@@ -148,7 +148,6 @@ body {
 	height: 250px;
 	background: url(assets/img/rsava.jpg) no-repeat;
 	background-size: cover;
-	border: 1px solid black;
 	border-radius: 150px;
 }
 
@@ -369,6 +368,16 @@ body {
 
 
 @media (max-width: 1177px) {
+	.nav-list {
+		width: 100%;
+	}
+
+	.profile-link {
+		width: 200px;
+		height: 200px;
+		border: none;
+	}
+	
 	.summary-p {
 		line-height: 21px;
 		font-size: 15px;
