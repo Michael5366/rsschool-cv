@@ -1,9 +1,138 @@
 <!DOCTYPE html>
-<html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body></body>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" href="assets/img/favicon.ico">
+		<title>Michael Elsky</title>
+	</head>
+	<body>
+		<!-- HEADER -->
+		<header class="header">
+			<div class="container">
+				<nav class="nav">
+					<a href="https://rs.school/courses/javascript-ru" class="header-logo">
+						<img src="/assets/img/rs-school-logo.svg" alt="rs school logo" class="header-logo-img">
+					</a>
+					<ul class="nav-list">
+						<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+						<li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+						<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+						<li class="nav-item"><a href="#code-example" class="nav-link">Code Example</a></li>
+						<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+						<li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- MAIN -->
+		<main class="main">
+			<div class="container main-container">
+				<section class="section profile-section" id="profile">
+					<div class="profile-foto">
+						<a href="#" class="profile-link">
+							<img src="/assets/img/rsava.jpg" alt="profile foto" class="profile-img">
+						</a>
+					</div>
+					<div class="profile-header">
+						<h1 class="profile-h1">Michael Elsky</h1>
+						<p class="profile-p">Student</p>
+					</div>
+				</section>
+				<!-- CONTACTS -->
+				<section class="section section-border-bottom" id="contacts">
+					<div class="section-align">
+						<h2 class="section-h2 contacts-h2">Contacts</h2>
+						<ul class="list contacts-list">
+							<li class="contacts-item">Github: <a href="https://github.com/Michael5366" class="contacts-link">Michael5366</a></li>
+							<li class="contacts-item">Discord: <a href="https://discordapp.com/users/615185058512240660/" class="contacts-link">@Michael5366</a></li>
+							<li class="contacts-item">Facebook: <a href="https://www.facebook.com/xnexonx.door" class="contacts-link">xnexonx.door</a></li>
+							<li class="contacts-item">Email: <span class="contacts-email">qwentin536@gmail.com</span></li>
+						</ul>
+					</div>
+				</section>
+				<!-- SUMMARY -->
+				<section class="section section-border-bottom" id="summary">
+					<div class="section-align">
+						<h2 class="section-h2 summary-h2">Summary</h2>
+						<p class="summary-p">
+							I became interested in web development more than 5 years ago, 
+							but I only started taking it 
+							seriously in 2024. This field fascinates me both as a hobby 
+							and as a potential future profession.  
+							I really enjoy exploring the world of development because 
+							no matter where you look, you’re 
+							always learning something new. It’s not uncommon 
+							for me to get very frustrated when things  
+							don’t work out, but at the same time, I’m incredibly 
+							happy when they finally do. I don’t think I’m 
+							unique in this regard, but I just wanted to say that 
+							I really enjoy learning about development.
+						</p>
+					</div>
+				</section>
+				<!-- SKILLS -->
+				<section class="section section-border-bottom" id="skills">
+					<div class="section-align">
+						<h2 class="section-h2 skills-h2">Skills</h2>
+						<ul class="list skills-list">
+							<li class="skills-item">Web-development: <span class="summary-span">HTML, CSS, JavaScript (in progress)</span></li>
+							<li class="skills-item">Version control: <span class="summary-span">GIT, Github (in progress)</span></li>
+						</ul>
+					</div>
+				</section>
+				<!-- CODE EXAMPLE -->
+				<section class="section section-border-bottom" id="code-example">
+					<div class="section-align">
+						<h2 class="section-h2 code-example-h2">Code</h2>
+						<code class="code">
+							function min(arr) {<br>
+							&nbsp;&nbsp;let min = arr[0]<br>
+							&nbsp;&nbsp;for (let i = 0; i &lt; arr.length; i++) {<br>
+							&nbsp;&nbsp;&nbsp;if (min > arr[i]) {<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;min = arr[i];<br>
+							&nbsp;&nbsp;&nbsp;}<br>
+							&nbsp;&nbsp;}<br>
+							&nbsp;&nbsp;return min;<br>
+							}
+						</code>
+					</div>
+				</section>
+				<!-- COURSES -->
+				<section class="section section-courses-border-bottom" id="courses">
+					<div class="section-align">
+						<h2 class="section-h2 courses-h2">Courses</h2>
+						<ul class="list courses-list">
+							<li class="courses-item">Specialist: <span class="courses-span">HTML, CSS, JavaScript</span></li>
+							<li class="courses-item">Udemy: <span class="courses-span">JavaScript</span></li>
+						</ul>
+					</div>
+				</section>
+				<!-- ENGLISH -->
+				<section class="section" id="english">
+					<div class="section-align">
+						<h2 class="section-h2 courses-h2">English</h2>
+						<ul class="list english-list">
+							<li class="english-item">English <a href="https://www.efset.org/" class="english-link">A1/A2 (Quick check)</a></li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</main>
+		<!-- FOOTER -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-wrap">
+					<div class="footer-copyright">
+						<span>&copy; 2024 </span>
+						<a href="https://github.com/Michael5366" class="footer-link"></a>
+					</div>
+					<a href="https://rs.school/courses/javascript-ru" class="footer-logo">
+						<img src="/assets/img/rs-school-logo.svg" alt="rs school logo" class="footer-logo-img">
+					</a>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
