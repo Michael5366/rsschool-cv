@@ -148,6 +148,7 @@ body {
 	height: 250px;
 	background: url(assets/img/rsava.jpg) no-repeat;
 	background-size: cover;
+	background-position: center 70%;
 	border-radius: 150px;
 }
 
@@ -341,6 +342,7 @@ body {
 	display: block;
 	width: 30px;
 	height: 30px;
+	font-size: 0;
 	border: 2px solid #fff;
 	border-radius: 50%;
 	background: url(assets/img/github-ico.svg) no-repeat;
